@@ -1,0 +1,35 @@
+
+#intro {
+    background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.mt-5 {
+    margin: 10rem;
+
+}
+.mt-5 p {
+    font-size: 20px;
+}
+.col-md-10 > .btn-secondary {
+    background: transparent;
+    border: 1px solid white;
+}
+.col-md-10 > .btn-secondary:hover {
+    background-color: white;
+    color: black;
+}
+.card-group {
+    display: flex;
+    justify-content: space-around;
+}
+.card { 
+    max-width: 30%;
+    border: 0;
+}
+.card-body {
+    text-align: center;
+    border: 0 transparent;
+    box-shadow: none;
+}
